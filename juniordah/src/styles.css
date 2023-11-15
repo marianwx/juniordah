@@ -5,11 +5,17 @@
     box-sizing: border-box;
 }
 
+::selection {
+    color: white;
+    background: red;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
-/* nav {
-    font-family: 'Recoleta', sans-serif;                                  
-} */
+#acasa h1 {
+    font-family: 'Recoleta', sans-serif;
+    font-weight: bold;                             
+}
 
