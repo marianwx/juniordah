@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FF0000" />
+    <title>Santa's Squad</title>
+    <!-- ====== Favicon Icon ====== -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- ====== Main CSS Stylesheet ====== -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- ====== Flowbite CDN ====== -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="dark:bg-gray-900">
+
+    <!-- ======  Navbar ====== -->
+
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center">
+                <img src="img/logoex2.png" class="h-8 mr-3" alt="Logo">
+                <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Lorem</span> -->
+            </a>
+            <div class="flex md:order-2">
+                <!-- Cumpara button -->
+                <button type="button"
+                    class="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-gray-200 font-medium rounded-3xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-red-500 dark:hover:bg-red-600 dark:focus:ring-gray-200"><a
+                        href="#produse">Cumpără</a></button>
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Deschide meniul</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#acasa"
+                            class="block py-2 pl-3 pr-4 text-white bg-red-500 rounded md:bg-transparent md:text-red-500 md:p-0 md:dark:text-red-500"
+                            aria-current="page">Acasă</a>
+                    </li>
+                    <!-- === Despre Dropdown === -->
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0 md:w-auto dark:text-white md:dark:hover:text-red-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Despre
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4"></path>
+                            </svg></button>
+                        <!-- dropdownMenu -->
+                        <div id="dropdownNavbar"
+                            class="hidden z-10 font-normal text-center bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 block"
+                            data-popper-placement="bottom"
+                            style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(400px, 54px);">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="#misiune"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Misiune</a>
+                                </li>
+                                <li>
+                                    <a href="#sponsorizare"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sponsorizare</a>
+                                </li>
+                                <li>
+                                    <a href="#echipa"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Echipa
+                                        noastră</a>
+                                </li>
+                            </ul>
+                            <div class="py-1">
+                                <a href="#intrebari"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Întrebari
+                                    frecvente</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#produse"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-500 md:p-0 md:dark:hover:text-red-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Produse</a>
+                    </li>
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-500 md:p-0 md:dark:hover:text-red-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ====== Main ====== -->
+    <section class="flex justify-center mt-16">
+        <main class="container">
+
+            <article class="px-4 py-24 mx-auto max-w-7xl" itemid="#" itemscope itemtype="http://schema.org/BlogPosting">
+                <div class="w-full mx-auto mb-12 text-left md:w-3/4 lg:w-1/2">
+                    <img src="img/marian.jpg" class="object-cover w-full h-64 bg-center rounded-lg" alt="Kutty" />
+                    <p class="mt-6 mb-2 text-xs font-semibold tracking-wider uppercase text-primary">Development</p>
+                    <h1 class="mb-3 text-3xl font-bold leading-tight text-gray-900 md:text-4xl" itemprop="headline"
+                        title="Rise of Tailwind - A Utility First CSS Framework">
+                        Rise of Tailwind - A Utility First CSS Framework
+                    </h1>
+                    <div class="flex mb-6 space-x-2">
+                        <a class="text-gray-900 bg-gray-100 badge hover:bg-gray-200" href="#">CSS</a>
+                        <a class="text-gray-900 bg-gray-100 badge hover:bg-gray-200" href="#">Tailwind</a>
+                        <a class="text-gray-900 bg-gray-100 badge hover:bg-gray-200" href="#">AlpineJS</a>
+                    </div>
+                    <a class="flex items-center text-gray-700" href="#">
+                        <div class="avatar"><img src="/placeholder.jpg" alt="Photo of Praveen Juge" /></div>
+                        <div class="ml-2">
+                            <p class="text-sm font-semibold text-gray-800">Praveen Juge</p>
+                            <p class="text-sm text-gray-500">Jan 02 2021</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="w-full mx-auto prose md:w-3/4 lg:w-1/2">
+                    <p>
+                        What if there is an easy way to achieve responsive UI without using any UI kit? Can we
+                        create new and fresh designs for every project with a CSS framework? Enter Tailwind CSS,
+                        will this be the
+                        perfect CSS framework, well let’s find out.
+                    </p>
+                    <p>Tailwind is a utility-first CSS framework, the keyword being ‘utility’. It is basically a set
+                        of classes that you can use in your HTML.</p>
+                    <p>
+                        Therefore, we don’t have to write any custom CSS to get this button. This can be heavily
+                        extended to build whole web applications without the need for any other styles apart from a
+                        tailwind.
+                    </p>
+                    <p>...</p>
+                </div>
+            </article>
+
+        </main>
+    </section>
+
+
+
+    <!-- ====== Footer ====== -->
+
+    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4 dark:shadow">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="#" class="flex items-center mb-4 sm:mb-0">
+                    <img src="img/logoex2.png" class="h-8 mr-3" alt="Lorem Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+                </a>
+                <ul
+                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="/legal" class="mr-4 hover:underline md:mr-6 ">Despre</a>
+                    </li>
+                    <li>
+                        <a href="/legal" class="mr-4 hover:underline md:mr-6">Politica de confidențialitate</a>
+                    </li>
+                    <li>
+                        <a href="/legal" class="mr-4 hover:underline md:mr-6 ">Termeni și condiții</a>
+                    </li>
+                    <li>
+                        <a href="/legal" class="hover:underline">Licențiere</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
+                    href="https://lorem.com/" class="hover:underline">Lorem™</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+    <!-- ====== Designed & Developed by Vladut Marian ====== -->
+
+    <p class="block text-sm text-center font-bold text-white sm:text-center bg-gray-800 dark:text-white-400">
+        Developed by <a href="https://marianwx.github.io/myPortfolio/"
+            class="transition duration-200 hover:text-green-500">Vladut Marian</a>
+    </p>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
