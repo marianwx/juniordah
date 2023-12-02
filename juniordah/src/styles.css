@@ -14,9 +14,36 @@ html {
     scroll-behavior: smooth;
 }
 
-rect {
-    fill: #ff0000; /* changes the color to red */
-  }
+/* === Scrollbar === */
 
-/* === Snowflakes === */
+::-webkit-scrollbar {
+    width: 10px;
+}
 
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff5050;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ef4444;
+}
+
+@media (prefers-color-scheme: dark) {
+    ::-webkit-scrollbar-track {
+        background: #4b5563;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #ff5050;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ef4444;
+    }
+}
+
+/* === Preloader === */

@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="styles.css">
   <!-- ====== Flowbite CDN ====== -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
+  <!-- ====== Daisy UI ====== -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.16/dist/full.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -101,43 +103,7 @@
   <section class="flex justify-center">
     <main class="container">
 
-
-
       <!-- ====== Hero Section ====== -->
-      <!-- <section id="acasa" class="">
-        <div class="mx-auto max-w-screen-xl justify-evenly px-4 py-52 lg:flex lg:h-screen lg:items-center">
-          <div>
-            <div class="mx-auto max-w-xl text-center">
-
-              <p class="text-3xl font-extrabold text-red-500 sm:text-5xl">
-                Mos Craciun e pe drum
-              </p>
-
-              <p class="mt-4 sm:text-xl/relaxed mt-20 block mb-10 text-center dark:text-white">
-                ,,Un cadou pentru tine, un miracol pentru ei"
-              </p>
-
-
-              <div class="mt-8 flex flex-wrap justify-center gap-4">
-                <a class="block w-fit rounded-3xl bg-red-500 px-10 py-3 text-sm font-medium text-white shadow dark:shadow-xl hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-                  href="#produse">
-                  Oferta noastră
-                </a>
-
-                <a class="block w-fit rounded-3xl px-10 py-3 text-sm font-medium text-red-600 shadow dark:shadow-xl dark:border-2 dark:border-gray-800 dark:bg-gray-800 hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
-                  href="#newsletter">
-                  Află mai multe
-                </a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <img width="400px" src="img/santa.png" alt="">
-          </div>
-        </div> 
-      </section> -->
-
-
       <section class="pt-52 bg-white dark:bg-gray-900">
         <div class="px-12 mx-auto max-w-7xl">
           <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
@@ -147,12 +113,13 @@
                 class="w-full py-2 text-transparent bg-clip-text leading-12 bg-red-500 bg-clip-text text-transparent lg:inline">suntem
                 echipa</span> <span>Moșului</span>
             </h1>
-            <p class="mb-8 text-lg text-gray-600 font-bold text-center text-red-500 md:text-xl lg:px-24">
-              "Un <span class="dark:text-white">cadou</span> pentru tine, un <span class="dark:text-white">miracol</span> pentru ei"
+            <p class="mb-8 text-lg font-bold text-center text-red-500 md:text-xl lg:px-24">
+              "Un <span class="dark:text-white">cadou</span> pentru tine, un <span
+                class="dark:text-white">miracol</span> pentru ei"
             </p>
             <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
-              <a href="#_"
-                class="inline-flex items-center font-semibold sm:mx-4 justify-center w-full px-6 py-3 mb-2 text-md text-white bg-red-500 rounded-3xl sm:w-auto sm:mb-0">
+              <a href="#produse"
+                class="inline-flex items-center font-semibold sm:mx-4 hover:bg-red-600 transition-all duration-200 justify-center w-full px-6 py-3 mb-2 text-md text-white bg-red-500 rounded-3xl sm:w-auto sm:mb-0">
                 Oferta noastră
                 <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd"
@@ -161,7 +128,7 @@
                 </svg>
               </a>
               <a href="#_"
-                class="inline-flex items-center font-semibold text-red-600 justify-center w-full px-6 py-3 mb-2 text-md bg-red-100 rounded-3xl sm:w-auto sm:mb-0">
+                class="inline-flex items-center font-semibold text-red-600 hover:bg-red-200 transition-all duration-200 justify-center w-full px-6 py-3 mb-2 text-md bg-red-100 rounded-3xl sm:w-auto sm:mb-0">
                 Află mai multe
                 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg">
@@ -175,7 +142,7 @@
           <div class="w-full mx-auto mt-20 mb-10 text-center md:w-5/12">
             <div class="relative z-0 w-full mt-8">
               <div class="relative overflow-hidden flex justify-center">
-                
+
                 <img src="img/santa.png">
               </div>
             </div>
@@ -184,21 +151,24 @@
       </section>
 
 
-      <!-- ====== Despre noi ====== -->
-      <section id="misiune" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <!-- ====== Misiune ====== -->
+      <section id="misiune"
+        class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="grid gap-10 lg:grid-cols-2">
           <div class="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
             <div class="flex items-center justify-center w-14 h-16 mb-4 rounded-full bg-teal-accent-400">
-              <!-- <img src="https://cdn-icons-png.flaticon.com/512/837/837993.png" width="45px" alt=""> -->
-              <svg class="dark:fill-red-500" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 7V20M12 7H8.46429C7.94332 7 7.4437 6.78929 7.07533 6.41421C6.70695 6.03914 6.5 5.53043 6.5 5C6.5 4.46957 6.70695 3.96086 7.07533 3.58579C7.4437 3.21071 7.94332 3 8.46429 3C11.2143 3 12 7 12 7ZM12 7H15.5357C16.0567 7 16.5563 6.78929 16.9247 6.41421C17.293 6.03914 17.5 5.53043 17.5 5C17.5 4.46957 17.293 3.96086 16.9247 3.58579C16.5563 3.21071 16.0567 3 15.5357 3C12.7857 3 12 7 12 7ZM5 12H19V17.8C19 18.9201 19 19.4802 18.782 19.908C18.5903 20.2843 18.2843 20.5903 17.908 20.782C17.4802 21 16.9201 21 15.8 21H8.2C7.07989 21 6.51984 21 6.09202 20.782C5.71569 20.5903 5.40973 20.2843 5.21799 19.908C5 19.4802 5 18.9201 5 17.8V12ZM4.6 12H19.4C19.9601 12 20.2401 12 20.454 11.891C20.6422 11.7951 20.7951 11.6422 20.891 11.454C21 11.2401 21 10.9601 21 10.4V8.6C21 8.03995 21 7.75992 20.891 7.54601C20.7951 7.35785 20.6422 7.20487 20.454 7.10899C20.2401 7 19.9601 7 19.4 7H4.6C4.03995 7 3.75992 7 3.54601 7.10899C3.35785 7.20487 3.20487 7.35785 3.10899 7.54601C3 7.75992 3 8.03995 3 8.6V10.4C3 10.9601 3 11.2401 3.10899 11.454C3.20487 11.6422 3.35785 11.7951 3.54601 11.891C3.75992 12 4.03995 12 4.6 12Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+              <svg class="dark:fill-red-500" width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 7V20M12 7H8.46429C7.94332 7 7.4437 6.78929 7.07533 6.41421C6.70695 6.03914 6.5 5.53043 6.5 5C6.5 4.46957 6.70695 3.96086 7.07533 3.58579C7.4437 3.21071 7.94332 3 8.46429 3C11.2143 3 12 7 12 7ZM12 7H15.5357C16.0567 7 16.5563 6.78929 16.9247 6.41421C17.293 6.03914 17.5 5.53043 17.5 5C17.5 4.46957 17.293 3.96086 16.9247 3.58579C16.5563 3.21071 16.0567 3 15.5357 3C12.7857 3 12 7 12 7ZM5 12H19V17.8C19 18.9201 19 19.4802 18.782 19.908C18.5903 20.2843 18.2843 20.5903 17.908 20.782C17.4802 21 16.9201 21 15.8 21H8.2C7.07989 21 6.51984 21 6.09202 20.782C5.71569 20.5903 5.40973 20.2843 5.21799 19.908C5 19.4802 5 18.9201 5 17.8V12ZM4.6 12H19.4C19.9601 12 20.2401 12 20.454 11.891C20.6422 11.7951 20.7951 11.6422 20.891 11.454C21 11.2401 21 10.9601 21 10.4V8.6C21 8.03995 21 7.75992 20.891 7.54601C20.7951 7.35785 20.6422 7.20487 20.454 7.10899C20.2401 7 19.9601 7 19.4 7H4.6C4.03995 7 3.75992 7 3.54601 7.10899C3.35785 7.20487 3.20487 7.35785 3.10899 7.54601C3 7.75992 3 8.03995 3 8.6V10.4C3 10.9601 3 11.2401 3.10899 11.454C3.20487 11.6422 3.35785 11.7951 3.54601 11.891C3.75992 12 4.03995 12 4.6 12Z"
+                  stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
             </div>
             <div class="max-w-xl mb-6">
               <h2
                 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none dark:text-white">
                 Lasă-ne să ne<br class="hidden md:block" />
-                ocupăm de <span class="inline-block text-red-600">cadourile tale</span>
+                ocupăm de <span class="inline-block text-red-500">cadourile tale</span>
               </h2>
               <p class="text-base text-gray-700 md:text-lg dark:text-gray-600">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
@@ -208,7 +178,7 @@
             </div>
             <div>
               <a href="#produse" aria-label=""
-                class="inline-flex items-center font-semibold transition-colors dark:text-gray-400 duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+                class="inline-flex items-center font-semibold transition-colors dark:text-gray-400 duration-200 text-deep-purple-accent-400 hover:text-gray-300">
                 Produsele noastre
                 <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
                   <path
@@ -221,8 +191,7 @@
           <div class="flex items-center justify-center -mx-4 lg:pl-8">
             <div class="flex flex-col items-end px-3">
               <img class="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src="https://www.realsimple.com/thmb/PqanvL5C7cSPvpoRkrzXB52kmio=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sugar-cookie-recipe-2000-2d0832d81c74401bb03944e49ac991e0.jpg"
-                alt="" />
+                src="img/produse/coronita-rosie.jpg" alt="" />
               <img class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
                 src="https://www.realsimple.com/thmb/PqanvL5C7cSPvpoRkrzXB52kmio=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sugar-cookie-recipe-2000-2d0832d81c74401bb03944e49ac991e0.jpg"
                 alt="" />
@@ -333,7 +302,27 @@
       </section>
 
       <!-- ====== JuniorDAH ====== -->
-
+      <section class="mx-auto max-w-screen-xl px-4 pt-24 mx-auto max-w-7xl">
+        <div class="flex justify-center items-center mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+          <div>
+            <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-red-500 md:leading-tight sm:text-left md:text-4xl">Sponsor oficial - JuniorDAH</h2>
+            <p class="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
+              
+            </p>
+            <a href="#produse" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors dark:text-gray-400 duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 hover:text-gray-300">
+                Află mai mult
+                <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
+                  <path
+                    d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z">
+                  </path>
+                </svg>
+              </a>
+          </div>
+          <img src="img/juniordah.jpg" alt="">
+        </div>
+      </section>
+      
 
       <!-- ====== Echipa noastra ====== -->
       <section id="echipa" class="bg-white m-30 py-6 sm:py-8 lg:py-12 dark:bg-gray-900">
@@ -352,17 +341,18 @@
             <!-- ====== Delia ====== -->
             <div class="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8 dark:bg-gray-600">
               <div class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
-                <img src="img/delia.jpg"
-                  loading="lazy" alt="Photo by Midas Hofstra" class="h-full w-full object-cover object-center" />
+                <img src="img/delia.jpg" loading="lazy" alt="Photo by Midas Hofstra"
+                  class="h-full w-full object-cover object-center" />
               </div>
               <div>
                 <div class="text-center font-bold text-red-400 md:text-lg">Delia</div>
                 <p class="mb-3 text-center text-sm text-gray-400 md:mb-4 md:text-base">Director Creativitate</p>
                 <div class="flex justify-center">
                   <div class="flex gap-4">
-                    <a href="#" target="_blank"
+                    <a href="https://www.instagram.com/delia____dologa/" target="_blank"
                       class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                      <svg class="dark:fill-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <svg class="dark:fill-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
                         <path
                           d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                       </svg>
@@ -385,9 +375,10 @@
                 <p class="mb-3 text-center text-sm text-gray-400 md:mb-4 md:text-base">Director Productie</p>
                 <div class="flex justify-center">
                   <div class="flex gap-4">
-                    <a href="#" target="_blank"
+                    <a href="https://www.instagram.com/by_iasmi/" target="_blank"
                       class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                      <svg class="dark:fill-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <svg class="dark:fill-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
                         <path
                           d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                       </svg>
@@ -398,19 +389,20 @@
             </div>
 
             <!-- ====== Darius ====== -->
-            <div class="flex flex-col items-center rounded-lg bg-yellow-100 p-4 lg:p-8 dark:bg-gray-400">
+            <div class="flex flex-col items-center rounded-lg bg-yellow-100 p-4 lg:p-8 dark:bg-gray-500">
               <div class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
                 <img src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256"
                   loading="lazy" alt="Photo by Midas Hofstra" class="h-full w-full object-cover object-center" />
               </div>
               <div>
-                <div class="text-center font-bold text-blue-600 md:text-lg">Darius</div>
+                <div class="text-center font-bold text-indigo-400 md:text-lg">Darius</div>
                 <p class="mb-3 text-center text-sm text-gray-800 md:mb-4 md:text-base">Mentor</p>
                 <div class="flex justify-center">
                   <div class="flex gap-4">
-                    <a href="#" target="_blank"
+                    <a href="https://www.instagram.com/_cdarius/" target="_blank"
                       class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                      <svg class="dark:fill-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <svg class="dark:fill-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
                         <path
                           d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                       </svg>
@@ -431,9 +423,10 @@
                 <p class="mb-3 text-center text-sm text-gray-400 md:mb-4 md:text-base">Director Marketing</p>
                 <div class="flex justify-center">
                   <div class="flex gap-4">
-                    <a href="#" target="_blank"
+                    <a href="https://www.instagram.com/_luciiiii_3_/" target="_blank"
                       class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                      <svg class="dark:fill-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <svg class="dark:fill-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
                         <path
                           d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                       </svg>
@@ -454,17 +447,18 @@
                 <p class="mb-3 text-center text-sm text-gray-400 md:mb-4 md:text-base">Director Web & Social Media</p>
                 <div class="flex justify-center">
                   <div class="flex gap-4">
-                    <a href="#" target="_blank"
+                    <a href="https://www.instagram.com/maran_wx/" target="_blank"
                       class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                      <svg class="dark:fill-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <svg class="dark:fill-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
                         <path
                           d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                       </svg>
                     </a>
-                    <a href="#" target="_blank"
+                    <!-- <a href="#" target="_blank"
                       class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                      <img class="w-[23px]" src="https://www.svgrepo.com/show/162283/world-wide-web.svg" alt="">
-                    </a>
+                      <img class="w-[23px] opacity-75 brightness-100" src="img/redweb.png" alt="">
+                    </a> -->
                   </div>
                 </div>
               </div>
@@ -680,24 +674,67 @@
           <img src="img/logo.png" class="h-8 mr-3" alt="Santa's Squad Logo" />
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </a>
-        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-          <li>
-            <a href="/legal" class="mr-4 hover:underline md:mr-6 ">Despre</a>
-          </li>
-          <li>
-            <a href="/legal" class="mr-4 hover:underline md:mr-6">Politica de confidențialitate</a>
-          </li>
-          <li>
-            <a href="/legal" class="mr-4 hover:underline md:mr-6 ">Termeni și condiții</a>
-          </li>
-          <li>
-            <a href="/legal" class="hover:underline">Licențiere</a>
-          </li>
-        </ul>
+
+        <div class="flex gap-4">
+          <!-- Despre -->
+          <button class="hover:underline text-sm" onclick="my_modal_2.showModal()">Despre</button>
+          <dialog id="my_modal_2" class="modal">
+            <div class="modal-box">
+              <h3 class="font-bold text-lg text-center">Informatii despre noi</h3>
+              <p class="py-2 text-justify">
+                Misiunea noastră la "Santa’s Squad " este să aducem bucurie și căldură în
+                casele oamenilor, aducând o
+                notă autentică și personalizată în sărbători. În același timp, suntem motivați să facem o schimbare
+                pozitivă în lume.
+                Afacerea se desfășoară prin diverse modalități, atât de vânzare online, cât și de comercializare în
+                interiorul târgurilor stradale organizate de Primăria Municipiului Timișoara și supravegheate de
+                autoritățile locale, astfel putem oferii cel mai eficient și sigur cadru de desfășurare al afacerii
+                noastre.
+              </p>
+            </div>
+            <form method="dialog" class="modal-backdrop">
+              <button></button>
+            </form>
+          </dialog>
+
+          <!-- Termeni și condiții -->
+          <button class="hover:underline text-sm" onclick="my_modal_1.showModal()">Termeni și condiții</button>
+          <dialog id="my_modal_1" class="modal">
+            <div class="modal-box">
+              <h3 class="font-bold text-lg">Termeni și condiții</h3>
+              <p class="py-4">
+                .
+              </p>
+              <div class="modal-action">
+                <form method="dialog">
+                  <button class="btn">Accept</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
+
+
+          <!-- Licențiere -->
+          <button class="hover:underline text-sm" onclick="my_modal_5.showModal()">Licențiere</button>
+          <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+            <div class="modal-box">
+              <h3 class="font-bold text-lg">Licențiere</h3>
+              <p class="py-4">
+                .
+              </p>
+              <div class="modal-action">
+                <form method="dialog">
+                  <button class="btn">Salvează</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
+        </div>
+
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span class="block text-sm text-center text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://lorem.com/"
-          class="hover:underline">Santa's Squad™</a> • All Rights Reserved.</span>
+      <span class="block text-sm text-center text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#"
+          class="hover:underline">Santa's Squad</a> • All Rights Reserved.</span>
     </div>
   </footer>
 
@@ -708,7 +745,19 @@
       class="transition duration-200 hover:text-green-500">Vladut Marian</a>
   </p>
 
-  
+  <!-- ====== Scroll To Top ====== -->
+  <button type="button" data-te-ripple-init data-te-ripple-color="light"
+    class="!fixed bottom-5 right-5 hidden rounded-full bg-red-500 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg"
+    id="btn-back-to-top">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" class="h-4 w-4" role="img"
+      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <path fill="currentColor"
+        d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z">
+      </path>
+    </svg>
+  </button>
+
+
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
