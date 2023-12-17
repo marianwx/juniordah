@@ -1,0 +1,49 @@
+bete mos nicolae
+aranjamente lumanari
+coronite
+lumanari parfumate
+globuri carton
+globuri normale
+bradut luminita
+briose
+bilute
+brelocuri crosetate
+
+--
+eu aduc maine 207 lei
+--
+
+4184,5
+--
+
+nico - 290 lei
+niko - 6 lei, 30 lei
+
+
+33 bete mos nicolae - 18 lei
+12 aranjamente - 45 lei
+4 coronite - 45 lei
+19 lumanari parfumate - 20 lei
+30 globuri carton - 15 lei
+31 globuri normale - 20 lei
+8 braduti luminita - 25 lei
+65 briose - 6 lei
+35 pachet bilute - 5 lei
+15 brelocuri crosetate - 40 lei
+
+---
+
+594
+540
+180
+380
+450
+620
+200
+390
+175
+600
+=
+4129
+
+--> 55,5 lei donatii
